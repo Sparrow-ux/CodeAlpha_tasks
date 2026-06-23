@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Handwritten Recognition</title>
+</head>
+<body>
+
+    <h1>Handwritten Recognition System</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+
+        <input type="file" name="image">
+
+        <button type="submit">Upload</button>
+
+    </form>
+
+    {% if filename %}
+        <h3>Uploaded Image:</h3>
+
+        <img src="{{ url_for('static', filename='uploads/' + filename) }}"
+             width="300">
+             
+        {% if predicted_text %}
+        <h2>Predicted Text: {{ predicted_text }}</h2>
+        {% endif %}
+    {% endif %}
+
+</body>
+</html>

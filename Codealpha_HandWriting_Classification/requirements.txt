@@ -1,0 +1,10 @@
+1) Libraries to install:
+    1. flask 3.0.3
+    2. opencv-python 4.10.0.84
+    3. torch 2.3.0
+    4. torchvision 0.18.0
+    5. numpy 2.2.6
+    6. cnn
+    
+2) Datasets to download:
+    1. EMNIST

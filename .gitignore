@@ -1,0 +1,4 @@
+Codealpha_HandWriting_Classification/dataset/
+.vscode/
+__pycache__/
+*.pyc
