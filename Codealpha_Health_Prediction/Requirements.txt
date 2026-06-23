@@ -1,0 +1,11 @@
+1. Libraries to install:
+    1. pandas
+    2. scikit-learn
+    3. streamlit
+    4. joblib
+    5. XGBoost Classifier
+
+2. Datasets to use:
+    1. Pima Indians Diabetes Dataset (For Diabetes Prediction)
+    2. Heart Disease Dataset (For Heart Disease Prediction)
+
